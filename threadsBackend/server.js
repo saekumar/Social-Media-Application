@@ -25,7 +25,7 @@ app.use(express.urlencoded({ extended: true })) // To parse form data in the req
 app.use(cookieParser())
 // Middleware for CORS headers
 app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000')
+  res.setHeader('Access-Control-Allow-Origin', 'https://saithreads.vercel.app')
   res.setHeader(
     'Access-Control-Allow-Methods',
     'GET, POST, OPTIONS, PUT, PATCH, DELETE'
