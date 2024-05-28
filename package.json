@@ -1,12 +1,12 @@
 {
-  "name": "backend",
+  "name": "threads-social-media-app",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "threadsBackend/server.js",
   "scripts": {
-    "dev": "NODE_ENV=development nodemon backend/server.js",
-    "start": "NODE_ENV=production node backend/server.js",
-    "build": "npm install && npm install --prefix ../threads && npm run build --prefix ../threads"
+    "dev": "NODE_ENV=development nodemon threadsBackend/server.js",
+    "start": "NODE_ENV=production node threadsBackend/server.js",
+    "build": "npm install && npm install --prefix threads && npm run build --prefix threads"
   },
   "type": "module",
   "keywords": [],

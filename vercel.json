@@ -1,9 +1,9 @@
 {
   "builds": [
     {
-      "src": "threadsBackend/package.json",
+      "src": "package.json",
       "use": "@vercel/static-build",
-      "config": { "distDir": "../threads/dist" }
+      "config": { "distDir": "threads/dist" }
     }
   ],
   "routes": [
